@@ -9,7 +9,7 @@ html,body
 p{
     margin:0;
 }
-div.wrap{
+.wrap{
     position:relative;
     max-width:640px;
     height:100%;
@@ -19,20 +19,24 @@ div.wrap{
 
 .header{
     height: 2rem;
+    border-bottom:1px solid rgba(158, 139, 139, 0.12);
 }
 .left{
     float:left;
     padding-left:0.5rem;
     line-height: 2rem;
-    vertical-align: middle;
 }
 
 .right{
     float:right;
     padding-right:0.5rem;
-    line-height: 2rem;
-    vertical-align: middle;
+    line-height: 2.5rem;
 }
+
+.header .right img{
+    width:80%;
+}
+
 .header p{
     color:white;
     line-height: 2rem;
@@ -40,6 +44,7 @@ div.wrap{
     text-align: center;
 
 }
+
 .circle{
     width:0.5rem;
     height:0.5rem;
@@ -47,7 +52,7 @@ div.wrap{
     background-color: white;
     display:inline-block;
     vertical-align: middle;
-    margin:0 -2px;
+    margin:0 -1px;
 }
 @media screen and (min-width:320px){
   html{
@@ -55,25 +60,21 @@ div.wrap{
   }
 }
 
-@media screen and (min-width:348px){
+@media screen and (min-width:375px){
     html{
         font-size:12px;
     }
+
 }
 
-@media screen and (min-width:480px){
+@media screen and (min-width:414px){
     html{
         font-size:15px;
     }
 }
 
-@media screen and (max-width:640px){
-    html{
-        font-size:20px;
-    }
-}
 @media screen and (min-width:641px){
     html{
-        font-size:25px;
+        font-size:20px;
     }
 }
