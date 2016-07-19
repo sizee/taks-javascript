@@ -24,12 +24,14 @@ div.wrap{
     float:left;
     padding-left:0.5rem;
     line-height: 2rem;
+    vertical-align: middle;
 }
 
 .right{
     float:right;
     padding-right:0.5rem;
     line-height: 2rem;
+    vertical-align: middle;
 }
 .header p{
     color:white;
