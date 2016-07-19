@@ -1,3 +1,29 @@
+.left{
+    float:left;
+    padding-left:0.5rem;
+    line-height: 2rem;
+}
+
+.right{
+    float:right;
+    padding-right:0.5rem;
+    line-height: 2rem;
+}
+.header p{
+    color:white;
+    line-height: 2rem;
+    vertical-align: middle;
+    text-align: center;
+}
+.circle{
+    width:0.5rem;
+    height:0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    display:inline-block;
+    vertical-align: middle;
+    margin:0 -3px;
+}
 
 .content{
     position: absolute;
