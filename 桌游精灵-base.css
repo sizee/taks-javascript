@@ -1,4 +1,4 @@
-html,body
+html,body,p
 {
     height:100%;
     min-width:320px;
@@ -16,9 +16,35 @@ div.wrap{
 
 .header{
     height: 2rem;
-    background-color: #00A000;
 }
 
+.left{
+    float:left;
+    padding-left:0.5rem;
+    line-height: 2rem;
+}
+
+.right{
+    float:right;
+    padding-right:0.5rem;
+    line-height: 2rem;
+}
+.header p{
+    color:white;
+    line-height: 2rem;
+    vertical-align: middle;
+    text-align: center;
+
+}
+.circle{
+    width:0.5rem;
+    height:0.5rem;
+    border-radius: 50%;
+    background-color: white;
+    display:inline-block;
+    vertical-align: middle;
+    margin:0 -2px;
+}
 @media screen and (min-width:320px){
   html{
       font-size:10px;
