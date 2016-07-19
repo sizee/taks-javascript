@@ -19,6 +19,9 @@ function mytime(){
     document.getElementById('mytimes').innerHTML=h+":"+m+":"+s+" "+hh;
     setTimeout('mytime()',500);
 }
+function back(){
+    window.location.href="桌游精灵-首页.html";
+}
 function check(i){
     if(i<10) {
         i="0"+i;
