@@ -13,12 +13,10 @@ function mytime(){
     {
         h=h%12;
         hh="PM";
-
+    }else{
+        hh="AM";
     }
-         else
-       hh="AM";
     document.getElementById('mytimes').innerHTML=h+":"+m+":"+s+" "+hh;
-
     setTimeout('mytime()',500);
 }
 function check(i){
