@@ -1,0 +1,50 @@
+html,body
+{
+    height:100%;
+    min-width:320px;
+    margin:0;
+     padding:0;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+div.wrap{
+    position:relative;
+    max-width:640px;
+    height:100%;
+    margin:0 auto;
+    background-color: #29bde0;
+}
+
+.header{
+    height: 2rem;
+    background-color: #00A000;
+}
+
+@media screen and (min-width:320px){
+  html{
+      font-size:10px;
+  }
+}
+
+@media screen and (min-width:348px){
+    html{
+        font-size:12px;
+    }
+}
+
+@media screen and (min-width:480px){
+    html{
+        font-size:15px;
+    }
+}
+
+@media screen and (max-width:640px){
+    html{
+        font-size:20px;
+    }
+}
+@media screen and (min-width:641px){
+    html{
+        font-size:25px;
+    }
+}

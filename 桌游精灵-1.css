@@ -1,0 +1,27 @@
+
+.content{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    max-width: 640px;
+    height:80%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.content #img{
+    width:67%;
+    margin:0 auto;
+}
+
+.content img{
+    width:100%;
+}
+
+.content p{
+    color:white;
+    letter-spacing: 2px;
+    margin:0;
+    padding: 1rem;
+
+}
