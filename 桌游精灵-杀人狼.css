@@ -54,7 +54,12 @@
     vertical-align: middle;
 }
 
-.content-bottom h3{font-size: 1.5rem;color: #29bde0;font-weight: 500;padding-top: 1%;}
+.content-bottom h3{
+    font-size: 1.5rem;
+    color: #29bde0;
+    font-weight: 500;
+    padding-top: 1%;
+}
 
 .content-bottom p{
     color:#787878;
