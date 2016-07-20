@@ -17,16 +17,7 @@ img{
     background-color: #f0f0f0;
 }
 
-.wrap .nav {
-    background-color: #29bde0;
-    height:4rem;
-}
 
-.wrap .nav img{
-    max-width:30px;
-    margin:1rem;
-    width:100%;
-}
 
 .content{
     position:absolute;
