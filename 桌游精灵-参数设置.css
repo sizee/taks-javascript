@@ -1,0 +1,172 @@
+.wrap{
+    background-color:#f0f0f0;
+}
+
+/*div{
+    border:1px solid red;
+}
+*/
+.nav{
+    height:3rem;
+    background-color: #29bde0;
+    text-align: center;
+}
+
+.nav img{
+    width:100%;
+    vertical-align: middle;
+}
+
+.nav .left{
+    float:left;
+    width:4%;
+    line-height: 3rem;
+}
+
+.nav .right{
+    float:right;
+    width:8%;
+    line-height: 3rem;
+}
+
+.nav p{
+    font-size: 1.7rem;
+    line-height: 3rem;
+    padding:0;
+    margin:0;
+}
+
+.content{
+    width:93%;
+    height: 84%;
+    margin:0 auto;
+}
+
+.content-top{
+    position:relative;
+    height:50%;
+    margin:5% 0;
+}
+
+.content-top .top-left{
+    display:inline-block;
+    float:left;
+    width:21%;
+    height:100%;
+
+    font-size: 2rem;
+    text-align: center;
+    background-color: white;
+    border-right:1px solid #d9d9d9;
+}
+
+.content-top .top-left p{
+    letter-spacing: 1.4rem;
+    font-weight: 300;
+}
+.content-top .top-right{
+    display: inline-block;
+    position: relative;
+    float:left;
+    width:78.6%;
+    height:100%;
+    text-align: center;
+    background-color: #fbfbfb;
+
+}
+
+.top-right-up{
+
+}
+
+.top-right-down{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    border-top:1px solid #d9d9d9;
+}
+
+.top-right-down button{
+    font-size: 1.4rem;
+    border:none;
+    padding:1rem;
+    background-color: inherit;
+    color:#29bde0;
+}
+.top-right-down img{
+    width:1rem;
+
+}
+
+.content-middle{
+    height:15%;
+    background-color:white;
+}
+
+.content-middle p{
+    font-size: 1.3rem;
+    color:#d7d7d7;
+    padding: 0.3rem 0;
+    height: 30%;
+    letter-spacing: 0.3rem;
+    border-bottom:1px solid #d9d9d9;
+    margin: 0px 5%;
+    font-weight: 300;
+}
+
+.content-bottom{
+    position: relative;
+    height:15%;
+    font-weight: 500;
+    background-color: white;
+}
+.content-bottom h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: white;
+    margin: 4%;
+    font-weight: 300;
+}
+
+.content-bottom span{
+    font-size: 1.3rem;
+    color:orange;
+    padding:0 0.4rem;
+}
+
+.content-bottom #show{
+   position: relative;
+}
+
+.content-bottom #show  .rectangle1{
+    float:left;
+    width:1.2rem;
+    padding-left:2rem;
+}
+#show img{
+    width:100%;
+}
+.content-bottom #show  .rectangle2{
+    float:right;
+    padding-right:2rem;
+}
+#start{
+    height:10%;
+    margin-top:1rem;
+    width: 100%;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+
+
+
+

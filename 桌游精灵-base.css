@@ -6,9 +6,11 @@ html,body
      padding:0;
     font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
 }
-p{
+
+.header p{
     margin:0;
 }
+
 .wrap{
     position:relative;
     max-width:640px;
@@ -20,6 +22,7 @@ p{
 .header{
     height: 2rem;
     border-bottom:1px solid rgba(158, 139, 139, 0.12);
+    background-color: #29bde0;
 }
 .left{
     float:left;
@@ -30,7 +33,7 @@ p{
 .right{
     float:right;
     padding-right:0.5rem;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .header .right img{
