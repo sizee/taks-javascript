@@ -102,15 +102,4 @@ img{
     width:1.2rem;
 }
 
-.content-mid .circle2{
-    width:0.6rem;
-    height:0.6rem;
-    border-radius: 50%;
-    background-color:#f0f0f0;
-    display:inline-block;
-}
 
-.content-mid .active,
-.content-mid .circle2:hover{
-    background-color:#69d1e9;
-}
