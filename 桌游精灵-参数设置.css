@@ -45,7 +45,7 @@
 .content-top{
     position:relative;
     height:45%;
-    margin:5% 0;
+    margin:3% 0;
 }
 
 .content-top .top-left{
@@ -99,7 +99,7 @@
 }
 
 .content-middle{
-    height:18%;
+    height:20%;
     background-color:white;
 }
 
@@ -110,13 +110,13 @@
     height: 30%;
     letter-spacing: 0.3rem;
     border-bottom:1px solid #d9d9d9;
-    margin: 0px 5%;
+    margin: 0 5%;
     font-weight: 300;
 }
 
 .content-bottom{
     position: relative;
-    height:18%;
+    height:20%;
     font-weight: 500;
     background-color: white;
 }
@@ -124,7 +124,7 @@
     font-size: 1.3rem;
     font-weight: 500;
     background-color: white;
-    margin: 4%;
+    margin: 2%;
     font-weight: 300;
 }
 
@@ -152,7 +152,7 @@
 }
 #start{
     height:10%;
-    margin-top:1rem;
+    margin-top:2%;
     width: 100%;
     border: none;
     background-color: orange;
