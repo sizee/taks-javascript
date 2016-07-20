@@ -55,7 +55,6 @@ html,body
     background-color: white;
     display:inline-block;
     vertical-align: middle;
-    margin:0 -1px;
 }
 @media screen and (min-width:320px){
   html{
