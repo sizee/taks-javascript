@@ -21,12 +21,14 @@
     float:left;
     width:4%;
     line-height: 3rem;
+    padding-left: 1rem;
 }
 
 .nav .right{
     float:right;
     width:8%;
     line-height: 3rem;
+    padding-right: 1rem;
 }
 
 .nav p{

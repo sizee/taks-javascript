@@ -26,18 +26,18 @@ html,body
 }
 .left{
     float:left;
-    padding-left:0.5rem;
+    padding-left: 1rem;
     line-height: 2rem;
 }
 
 .right{
     float:right;
-    padding-right:0.5rem;
+    padding-right: 1rem;
     line-height: 2rem;
 }
 
 .header .right img{
-    width:80%;
+    width: 90%;
 }
 
 .header p{
