@@ -31,7 +31,7 @@ img{
     bottom:0;
     left:0;
     right:0;
-    top:6rem;
+    top:8rem;
     height:80%;
     background-color:#f0f0f0;
     text-align: center;
@@ -51,14 +51,14 @@ img{
 .content-top{
     position: relative;
     background-color: white;
-    margin-bottom:6%;
+    margin-bottom:5%;
 }
 
 .content-top h1{
     font-size: 1.6rem;
     font-weight: 500;
     color:#9a9a9a;
-    padding:6% 0;
+    padding:7% 0;
     display:inline-block;
 }
 
@@ -75,7 +75,7 @@ img{
 .content-mid ul{
     position: relative;
     margin:0;
-    padding:2% 11%;
+    padding:4% 11%;
     background-color:white;
 
 }
@@ -83,7 +83,7 @@ img{
     font-size: 1.5rem;
     font-weight: 500;
     color:#fbb435;
-    padding:5% 0;
+    padding:7% 0;
     border-bottom:1px solid #fbb435;
     background-color: white;
 }
@@ -91,7 +91,7 @@ img{
     font-size: 1.6rem;
     font-weight: 500;
     color:white;
-    padding:8% 0;
+    padding:5% 0;
     background-color:#69d1e9 ;
 }
 .content-mid li p{
@@ -101,7 +101,7 @@ img{
 }
 .content-mid .float-middle{
     position: absolute;
-    top:39%;
+    top:36%;
     right:2%;
     width:1.2rem;
 }
