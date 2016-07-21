@@ -75,7 +75,7 @@ html,body
 }
 
 .nav-style2 img{
-    width:100%;
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -90,7 +90,7 @@ html,body
     float:right;
     display: inline-block;
     width: 2.3rem;
-    line-height: 3rem;
+    line-height: 2.5rem;
     padding-right: 1rem;
 }
 
@@ -98,6 +98,7 @@ html,body
     display: inline-block;
     font-size: 1.7rem;
     line-height: 3rem;
+    color: white;
     padding:0;
     margin:0;
 }
