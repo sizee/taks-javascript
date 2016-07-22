@@ -15,7 +15,9 @@ html,body
     position:relative;
     max-width:640px;
     max-height:1136px;
+    min-height: 480px;
     height:100%;
+    width: 100%;
     margin:0 auto;
     background-color: #29bde0;
 }
@@ -100,6 +102,7 @@ html,body
     display: inline-block;
     font-size: 1.7rem;
     line-height: 3rem;
+    font-weight: 400;
     color: white;
     padding:0;
     margin:0;

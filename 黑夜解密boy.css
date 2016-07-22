@@ -1,28 +1,28 @@
 
 .content{
-    width: 75%;
+    width: 100%;
     height:80%;
-    margin:0 auto;
+    /* margin:0 auto; */
 }
 
 .content-top{
     position: relative;
     width:100%;
-    height: 75%;
     box-sizing: border-box;
-    margin-top: 13%;
     text-align: center;
+    border-bottom: 1px solid white;
+    height: 61%;
 }
 
 .content-top .img2{
-    width: 65%;
-    margin: 12% auto 4%;
-    display: block;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
 }
 
 .content-top .img2 img{
     width:100%;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .content-top .recting{
@@ -39,21 +39,37 @@
 
 .content-top .img3{
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 14%;
+    top: 4%;
+    right: 5%;
+    width: 21%;
 }
 
-.content-top .img3 img{width: 100%;}
+.content-top .img3 img{
+    width: 50%;
+}
+.content-bottom {
+    text-align: center;
+    height: 32%;
+    margin-top: 4%;
+}
 
-button{
+.content-bottom h4{
+    margin: 0;
+    display: inline-block;
+    width: 65%;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 1.5% 0;
+    background-color: #24a7c6;
+    color: white;
+    border-radius: 0.3rem;
+    }
+.img4{
+    width: 15%;
+    margin: 0 auto;
+}
+.img4 img{
     width: 100%;
-    font-size: 1.5rem;
-    font-weight: 500;
-    color:white;
-    border: none;
-    background-color:orange;
-    padding: 5% 0;
-    margin-top: 18%;
 }
+button{width: 74%;font-size: 1.5rem;font-weight: 300;color:white;border: 0;background-color:orange;padding: 3% 0;margin: 0 auto;display: inherit;}
 
