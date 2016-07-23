@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpriteFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" CssFileName="../images" ImageName="nav" IsPhone="true" SpriteImgFileType="Png" xmlns="CssSprite">
+  <SpriteList>
+    <Sprite Path="nav-设置.png" LocationX="0" LocationY="0" />
+    <Sprite Path="nav-music.png" LocationX="47" LocationY="0" />
+    <Sprite Path="nav-叹号.png" LocationX="97" LocationY="0" />
+    <Sprite Path="nav-疑问.png" LocationX="148" LocationY="0" />
+  </SpriteList>
+</SpriteFile>
