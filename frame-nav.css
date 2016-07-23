@@ -19,7 +19,7 @@ li{
     border-bottom: 1px solid #d6d6d6;
     vertical-align: middle;
     padding: 0.75rem 0;
-    background: url("桌游精灵-img/nav-right-blue.png") no-repeat 18.5rem center white;
+    background: url("桌游精灵-img/nav-right-blue.png") no-repeat 92% center white;
     background-size: 6%;
 }
 
@@ -33,13 +33,13 @@ li i{
 }
 
 .fen{
-    width: 21rem;
+    width: 70%;
     background-color: white;
-    position: absolute;
-    top: 5.1rem;
+    position: fixed;
+    top: 2.1rem;
     left: 0;
-    height: 100%;
-    /* margin-left: -10.5rem; */
+    bottom: 0;
+    /* margin-left: -80%; */
 }
 
 .icon-1{background-position: 7.1rem 0;}
