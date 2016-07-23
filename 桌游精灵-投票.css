@@ -1,7 +1,6 @@
 
 .wrap{
-    height:auto;
-
+    height: auto;
 }
 
 .top {
@@ -50,7 +49,7 @@
 .content-top .audio {
     width: 8%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     right: 2%;
 }
 

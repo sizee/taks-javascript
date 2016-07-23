@@ -20,36 +20,41 @@ li{
     vertical-align: middle;
     padding: 0.75rem 0;
     background: url("桌游精灵-img/nav-right-blue.png") no-repeat 92% center white;
-    background-size: 6%;
+    background-size: 5%;
 }
 
 li i{
     background: url("桌游精灵-img/nav.png");
     background-size: cover;
-    height: 2.05rem;
-    width: 2.05rem;
+    height: 2.0rem;
+    width: 2.0rem;
     float: left;
     margin: 0 1.5rem;
 }
 
 .fen{
-    width: 70%;
     background-color: white;
-    position: fixed;
-    top: 2.1rem;
-    left: 0;
-    bottom: 0;
-    /* margin-left: -80%; */
+    width: 80%;
+    display:none;
 }
 
-.icon-1{background-position: 7.1rem 0;}
+.fenhove{
+    position: absolute;
+    top: 2.1rem;
+    left: 0;
+    display:block;
+    border: 1px solid #29bde0;
+    height: 100%;
+}
+
+.icon-1{background-position: 7rem 0;}
 
 .icon-2{
   background-position: 0px 0;
 }
 
 .icon-3{
-    background-position: 2.2rem 0;
+    background-position: 2.1rem 0;
 }
 
 .icon-4{
