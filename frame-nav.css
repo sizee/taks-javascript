@@ -30,6 +30,7 @@ li i{
     width: 2.0rem;
     float: left;
     margin: 0 1.5rem;
+
 }
 
 .fen{
@@ -37,6 +38,7 @@ li i{
     width: 80%;
     display:none;
     max-width: 26rem;
+
 }
 
 .fenhove{
@@ -47,9 +49,11 @@ li i{
     border: 1px solid #29bde0;
     height: 100%;
     margin: 0 auto;
+
 }
 
 .icon-1{background-position: 7rem 0;}
+
 
 .icon-2{
   background-position: 0px 0;
