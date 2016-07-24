@@ -61,6 +61,11 @@ img{
     width: 1rem;
 }
 
+.content-mid a{
+    color: white;
+    text-decoration: none;
+}
+
 .content-mid{
     background-color:#f0f0f0;
 }
