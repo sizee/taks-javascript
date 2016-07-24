@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width; initial-scale=1 minimum-scale=1 maximum-scale=1">
     <link rel="stylesheet" href="桌游精灵-base.css">
     <link rel="stylesheet" href="桌游精灵-参数设置.css">
+    <script src="base-js/jquery-3.0.0.min.js"></script>
     <script src="base-js/桌游精灵-1.js"></script>
     <script src="list-js/桌游精灵参数设置.js"></script>
-    <script src="base-js/jquery-3.0.0.min.js"></script>
+
     <title>参数设置</title>
 </head>
 <body onload="mytime()">
@@ -40,7 +41,9 @@
                 <p>玩家配比</p>
             </div>
             <div class="top-right">
-                <div class="top-right-up"></div>
+                <div class="top-right-up">
+
+                </div>
                 <div class="top-right-down">
                     <button>点击设置</button>
                     <img src="桌游精灵-img/桌游精灵-设置页面rectanglePancil.png" alt="">
@@ -52,7 +55,11 @@
             <p>幽灵词组</p>
         </div>
         <div class="content-bottom">
-            <h3>玩家数量<span id="num">18</span>人</h3>
+            <h3>玩家数量
+             <lable for="number">
+                 <input type="text" id="number" value="6" >
+             </lable>
+                人</h3>
             <div id="show">
                 <div class="rectangle1">
                     <img src="桌游精灵-img/桌游精灵-设置页面minus.png" alt="">
