@@ -27,12 +27,7 @@ $(function(){
            }
            n++;
        })
-      /*var wrap=$(".wrap").width();
-     $(".fen").width("wrap+1");
-     alert($(".fen").width())*/
-  /*   var wrap=$(".wrap").css("width");
-   $(".fen").css("width","wrap");
-    alert(wrap.css("width"));*/
+
          
       
 });
