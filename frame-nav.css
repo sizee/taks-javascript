@@ -36,15 +36,17 @@ li i{
     background-color: white;
     width: 80%;
     display:none;
+    max-width: 26rem;
 }
 
 .fenhove{
-    position: absolute;
+    position: fixed;
     top: 2.1rem;
-    left: 0;
     display:block;
+    bottom: 0;
     border: 1px solid #29bde0;
     height: 100%;
+    margin: 0 auto;
 }
 
 .icon-1{background-position: 7rem 0;}
