@@ -25,10 +25,13 @@ $(function() {
                     thenumber[i]=$("<div class='color1'><img src='桌游精灵-img/桌游精灵-设置页面rectangleBlue.png'><span class='widtt'>平民</span><span>1人</span></div>");
                 }
                 for(i=0;i<number.val();i++){
-                    butshow.append(thenumber[i]);                //将创建的文本节点插入到指定的文本中。
+                    butshow.append(thenumber.sort(rand));                //将创建的文本节点插入到指定的文本中。
                 }
             }
         });
+    function rand(a,b){
+        return Math.random()>.5? -1:1;
+    }
         but2.click(function(){                                //点击发牌按钮事件
             if(n==2){                                          //判断用户是否设置玩家配比
                 location.href="http://www.baidu.com";          //如过以配比，转入下一个html文件
