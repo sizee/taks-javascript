@@ -33,8 +33,10 @@ $(function() {
         return Math.random()>.5? -1:1;
     }
         but2.click(function(){                                //点击发牌按钮事件
-            if(n==2){                                          //判断用户是否设置玩家配比
-                location.href="http://www.baidu.com";          //如过以配比，转入下一个html文件
+            if(n==2) {                                          //判断用户是否设置玩家配比
+                location.href = "翻拍.html";
+            }else//如过以配比，转入下一个html文件
+            {
                 alert("请点击设置参数");                       //提醒用户进行配比。
             }
         })
