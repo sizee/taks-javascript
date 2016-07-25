@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width:device-width, initial-scale=1, minimum-scale=1 ,maximum-scale=1">
-    <link rel="stylesheet" href="翻拍.css">
+    <link rel="stylesheet" href="查看身份-翻拍.css">
     <link rel="stylesheet" href="桌游精灵-base.css">
     <script src="base-js/jquery-3.0.0.min.js"></script>
-    <script src="list-js/翻牌.js"></script>
+    <script src="list-js/查看身份-翻牌.js"></script>
     <script src="base-js/桌游精灵-1.js"></script>
     <title>查看身份</title>
 </head>
@@ -35,13 +35,25 @@
           <p>查看身份</p>
       </div>
       <div class="content">
-            <div class="content-top">
+            <div class="content-top-one">
                 <div class="img2">
                     <img src="桌游精灵-img/桌游精灵-翻牌---皇上.png" alt="">
                 </div>
-                <div class="recting"></div>
+                <div class="recting">
+                    <span class="number"></span>
+                </div>
             </div>
-           <button>查看3号身份</button>
+          <div class="content-top-two">
+              <div class="img2">
+                  <img src="桌游精灵-img/桌游精灵-翻牌---wow.png" alt="">
+              </div>
+              <h2>角色:幽灵</h2>
+              <h3>词组:西伯利亚</h3>
+              <p class="text">想办法猜到人的词，同时还要注意
+                  不要暴露自己哦！</p>
+              <div class="recting"></div>
+          </div>
+           <button>查看<span class="number"></span>身份</button>
       </div>
   </div>
 </body>

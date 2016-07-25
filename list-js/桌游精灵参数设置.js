@@ -36,8 +36,9 @@ $(function() {
                      hellotext[ii]=$(this).text();                                 //将所取到的文本内容传到定义的数组hellotext里面。
                      ii++;                                                         //为了立遍整个hellotext数组。
                  });
-
-                localStorage.setItem("array",hellotext);                           //将数组hellotext里面的内容存储到本地的浏览器中。
+              //  hellotext=JSON.stringify(hellotext);                              //将hellotext转化为json格式 以便方便调用。
+                localStorage.setItem('array',JSON.stringify(hellotext));
+             //   localStorage.setItem("array",hellotext);                           //将数组hellotext里面的内容存储到本地的浏览器中。
             }
         });
     
@@ -47,7 +48,7 @@ $(function() {
     
     but2.click(function(){                                         //点击发牌按钮事件
             if(judeg==2) {                                          //判断用户是否设置玩家配比
-                location.href = "翻拍.html";
+                window.location.href = "查看身份-翻拍.html";
             }else                                                   //如过用户没有配比，转入下一个html文件
             {
                 alert("请点击设置参数");                            //提醒用户进行配比。

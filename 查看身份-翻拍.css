@@ -1,0 +1,116 @@
+
+.content{
+    width: 75%;
+    height:80%;
+    margin:0 auto;
+}
+
+.content-top-one{
+    position: relative;
+    width:100%;
+    height: 75%;
+    box-sizing: border-box;
+    border: 4px solid white;
+    background-color:#ffedc5;
+    margin-top: 13%;
+    text-align: center;
+}
+
+.content-top-one .img2{
+    width: 65%;
+    margin: 12% auto 4%;
+    display: block;
+}
+
+.content-top-one .img2 img{
+    width:100%;
+    margin-top: 30%;
+}
+
+.content-top-one .recting{
+    position: absolute;
+    top: -5%;
+    left: 43%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 4px solid #ffedc5;
+    background-color: white;
+    color: red;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+/*.content-top-two的样式表*/
+.content-top-two{
+    position: relative;
+    width:100%;
+    height: 75%;
+    box-sizing: border-box;
+    border: 4px solid white;
+    background-color:#ffedc5;
+    margin-top: 13%;
+    text-align: center;
+    display: none;
+}
+
+.content-top-two .img2{
+    width: 47%;
+    margin: 12% auto 4%;
+    display: block;
+}
+
+.content-top-two .img2 img{
+    width:100%;
+}
+
+.content-top-two h2{
+    font-size: 1.5rem;
+    color:#29bde0;
+    margin: 0;
+}
+
+.content-top-two h3{
+    font-size: 1.5rem;
+    color:#f56b81;
+    margin: 0;
+    padding-bottom: 6%;
+}
+
+.content-top-two p{
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+    color:#fca000;
+    margin: 0;
+    padding: 6% 8%;
+    border-top: 1px solid white;
+}
+
+.content-top-two .recting{
+    position: absolute;
+    top: -5%;
+    left: 43%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 4px solid #ffedc5;
+    background-color: white;
+    color: red;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+
+button{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color:white;
+    border: none;
+    background-color:orange;
+    padding: 5% 0;
+    margin-top: 18%;
+}
+
