@@ -3,6 +3,12 @@
  */
 
 $(function() {
+      if(window.localStorage){
+          alert("这个浏览器支持本地存储");
+      }else{
+          alert("这个浏览器不支持本地存储");
+          
+      }
     var but = $(".wrap .content .top-right-down button");  //获取点击设置按钮节点
     var but2=$(".wrap #start");                            //获取去发牌按钮节点
     var number=$(".wrap .content #number");                //获取用户input的值
