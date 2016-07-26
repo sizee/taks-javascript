@@ -17,7 +17,7 @@ $(function() {
     
     but.bind("click",function(){
         if(littlenumber==hello.length){
-            window.location.href="桌游精灵-流程.html";
+            window.location.href="法官日记.html";
             but.unbind();
             return false;
         }
