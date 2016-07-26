@@ -1,7 +1,8 @@
 
 .wrap{
-    height: 100%;
+    max-height: none;
     background-color: #29bde0;
+    height: auto;
 }
 
 .top {
@@ -90,8 +91,12 @@
 .content .box .box-top p {
     margin: 0;
     padding: 4px 0;
-    background-color: #83b09a;
+    background-color: rgba(68, 85, 69, 0.4);
     color: white;
+}
+
+.box .sub a{
+    margin: 0 2%;
 }
 
 .sub a img {
@@ -121,4 +126,8 @@ button {
     margin: 0 auto;
     color: white;
     display: inherit;
+}
+
+.deal{
+    background-color:#303b1b;
 }
