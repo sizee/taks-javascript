@@ -1,4 +1,4 @@
-html, body, h3
+html, body
 {
     height:100%;
     min-width:320px;
@@ -15,7 +15,7 @@ html, body, h3
     position:relative;
     max-width:640px;
     max-height:1136px;
-    min-height: 480px;
+     min-height: 320px;
     height:100%;
     width: 100%;
     margin:0 auto;
