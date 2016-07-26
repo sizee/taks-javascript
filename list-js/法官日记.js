@@ -10,10 +10,11 @@ $(function(){
        $(".content .wrp").append("<div class='box'>" +
            "<div class='box-top'>" +
            "<h2>" +
+
            "</h2>" +
            "<p>" +
-           (i+1)+'号' +
-           "</p>" +
+           (i+1)+'号'+
+        "</p>" +
            "</div>" +
            "</div>");
    }
