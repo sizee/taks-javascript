@@ -4,6 +4,7 @@
 
 $(function(){
     var number=new Array();
+   
     var kill =$(".content  .middle .right .kill");                      //杀手杀人
     var verify=$(".content .middle .right .verify");                   //警察验人
     var snipe=$(".content .middle .right .snipe");                     //狙击狙人
@@ -13,6 +14,7 @@ $(function(){
     var vite=$(".content .right .vite");                       //投票
     var control=0;
     number=JSON.parse(localStorage.getItem("array"));
+    localStorage.setItem("control2",JSON.stringify(0));
     kill.bind( "click",function(){                                 //点击杀人
         window.location.href = "杀手杀人.html";
         control=1;
@@ -55,4 +57,5 @@ $(function(){
         localStorage.setItem("control",JSON.stringify(control));
     });
     //////////////////////////////////////////////
+    
 });

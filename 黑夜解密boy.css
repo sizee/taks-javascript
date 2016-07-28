@@ -47,6 +47,12 @@
 .content-top .img3 img{
     width: 50%;
 }
+
+.content .content-top .showw {width: 80%;height: 25%;margin: 0 auto;overflow: auto;}
+
+.content .content-top .showw p{
+    color:white;
+}
 .content-bottom {
     text-align: center;
     height: 32%;

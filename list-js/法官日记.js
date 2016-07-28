@@ -10,7 +10,6 @@ $(function(){
        $(".content .wrp").append("<div class='box'>" +
            "<div class='box-top'>" +
            "<h2>" +
-
            "</h2>" +
            "<p>" +
            (i+1)+'号'+
@@ -18,8 +17,10 @@ $(function(){
            "</div>" +
            "</div>");
    }
+
     but.click(function(){
         location.href="桌游精灵-流程.html";
+
     })
 
 })

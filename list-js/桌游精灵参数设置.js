@@ -14,6 +14,7 @@ $(function() {
     var number=$(".wrap .content #number");                //获取用户input的值
     var butshow = $(".wrap .top-right-up");                //获取要写入的文本的位置节点
     var judeg=1;                                           //判断用户是否设置玩家配比
+    localStorage.setItem("control2", JSON.stringify(0));
         but.click(function(event){                        //用户点击事件
             judeg=2;
             var thenumber=new Array;                       //创建用户所选玩家大小 默认为6。
@@ -36,9 +37,15 @@ $(function() {
                      hellotext[ii]=$(this).text();                                 //将所取到的文本内容传到定义的数组hellotext里面。
                      ii++;                                                         //为了立遍整个hellotext数组。
                  });
-              //  hellotext=JSON.stringify(hellotext);                              //将hellotext转化为json格式 以便方便调用。
+            
                 localStorage.setItem('array',JSON.stringify(hellotext));
-             //   localStorage.setItem("array",hellotext);                           //将数组hellotext里面的内容存储到本地的浏览器中。
+                
+                var data=["array"," ","win","kill","name","cri"];//数组，日记，获胜方,杀手数量 被杀死的玩家名称,平民数量。
+                data[5]=hellotext.length-killnumber;
+                data[3]=killnumber;
+                data[0]=hellotext;
+                localStorage.setItem("datas",JSON.stringify(data));
+            
             }
         });
     

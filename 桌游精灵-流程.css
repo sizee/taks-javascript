@@ -1,59 +1,100 @@
-
-.wrap{
-    background-color:#f0f0f0 ;
+p, h2, h1, span {
+    margin: 0;
 }
 
-.wrapp{
-    height: 100%;
+.wrap {
+    background-color: #f0f0f0;
+}
+
+.wrapp {
+    height: 84%;
     position: relative;
 }
-.content{
-    width:93%;
-    height: 81%;
-    margin:5% auto 1% auto;
-    background-color:#f7f7f7;
+
+.content {
+    width: 93%;
+    height: 97%;
+    margin: 5% auto 1% auto;
+    background-color: #f7f7f7;
     text-align: center;
     display: block;
     /* border: 1px solid #c9c9c9; */
 }
 
-.wrap .top{/* height: 10%; */position: relative;}
+.wrap .top { /* height: 10%; */
+    position: relative;
+}
 
-.content .top h2{
+.content .top h2 {
     padding: 3%;
-    color:#24a7c6;
+    color: #24a7c6;
     margin: 0;
     font-weight: 600;
     border: 1px solid #c9c9c9;
 }
 
-.content .top .img{position: absolute;top: 34%;right: 3%;width: 8%;}
-
-.content .top img {
-width: 75%;
+.content .top .img {
+    position: absolute;
+    top: 34%;
+    right: 3%;
+    width: 8%;
 }
 
-.middle{
+.content .top img {
+    width: 75%;
+}
+
+.middle {
     height: 90%;
     border-bottom: 1px solid #c9c9c9;
     border-left: 1px solid #c9c9c9;
     border-right: 1px solid #c9c9c9;
+    /* display: none; */
 }
 
-.content .middle .left{background: url("桌游精灵-img/桌游精灵-流程-gray.png") repeat-y center 0;height: 100%;display: inline-block;float: left;position: relative;padding: 0;width: 4rem;}
+.content .middle .left {
+    background: url("桌游精灵-img/桌游精灵-流程-gray.png") repeat-y center 0;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 0;
+    width: 4rem;
+}
 
+.middle .left .img2 {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: white;
+    border: 2px solid #c9c9c9;
+    border-radius: 50%;
+    position: absolute;
+    top: 2rem;
+    margin-left: 18%;
+}
 
-.middle .left .img2{width: 2.2rem;height: 2.2rem;background-color: white;border: 2px solid #c9c9c9;border-radius: 50%;position: absolute;top: 2rem;margin-left: 18%;}
-
-.middle .left .img2 img{
+.middle .left .img2 img {
     width: 76%;
     padding: 11% 0;
 }
 
-.middle .left .img3 img{width: 60%;padding: 12% 0;}
-.middle .left .img3{width: 2.2rem;height: 2.2rem;background-color: white;border: 2px solid #c9c9c9;border-radius: 50%;position: absolute;top: 18.3rem;margin-left: 18%;}
+.middle .left .img3 img {
+    width: 60%;
+    padding: 12% 0;
+}
 
-.middle .right{
+.middle .left .img3 {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-color: white;
+    border: 2px solid #c9c9c9;
+    border-radius: 50%;
+    position: absolute;
+    top: 18.3rem;
+    margin-left: 18%;
+}
+
+.middle .right {
     text-align: center;
     width: 73%;
     margin: 5% auto 0 auto;
@@ -61,43 +102,88 @@ width: 75%;
     float: left;
 }
 
-.middle .right .p{
+.middle .right .p {
 
 }
-.range{
+
+.range {
     background-color: #24a7c6;
-    border-top:5px solid #24a7c6;
-    border-right:5px solid #24a7c6;
-    border-bottom:5px solid #24a7c6;
+    border-top: 5px solid #24a7c6;
+    border-right: 5px solid #24a7c6;
+    border-bottom: 5px solid #24a7c6;
 }
 
-.blue-left{
+.blue-left {
     border-color: transparent #24a7c6 transparent transparent;
-    border-style:solid;
+    border-style: solid;
     border-width: 0.7rem;
-    display:inline-block;
-    position:absolute;
+    display: inline-block;
+    position: absolute;
     left: -1.3rem;
     top: 28%;
 }
 
-.middle .right>div{
-    position:relative;
+.content .middle .publish {
+    margin-top: 3rem;
+}
+
+.middle .right > div {
+    position: relative;
     height: 3rem;
     background-color: #24a7c6;
     border-radius: 3px;
     margin: 0.5rem auto;
 }
 
-.middle .right>div p{
+.middle .right > div p {
     margin: 0;
-    font-size:1.3rem;
-    color:white;
+    font-size: 1.3rem;
+    color: white;
     border-radius: 3px;
     line-height: 2.5rem;
 }
 
 
-#publish{
-    margin-top:3rem;
+.wrapp .circlee {
+    display: none;
+}
+
+.circlee .upp {
+    display: block;
+    border-top: 0.2rem solid transparent;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid white;
+    width: 0rem;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: none;
+}
+
+.circlee .circle-little {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    display: none;
+}
+
+.circle-little > div {
+    position: relative;
+    height: 3rem;
+    background-color: #24a7c6;
+    border-radius: 3px;
+    margin: 0.5rem auto;
+    width:80%;
+
+}
+.circle-little > div p{
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 3px;
+    line-height: 2.5rem;
+
 }

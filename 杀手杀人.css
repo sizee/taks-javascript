@@ -69,8 +69,12 @@
     display: inline-block;
 }
 
+.content .box .deal{
+    text-align: center;
+    background-color:rgb(139, 139, 145);
+}
+
 .box .box-top {
-    /* height: 22%; */
     border: 0.2rem solid white;
     background-color: #f5c97b;
     text-align: center;
@@ -79,28 +83,26 @@
 .box .sub {
     width: 100%;
     margin-top: 15%;
+    text-align: center;
 }
 
-.content .box .box-top h2 {
+.content .box  h2 {
     font-size: 1.5rem;
     font-weight: 400;
     padding: 25% 0;
     margin: 0;
 }
 
-.content .box .box-top p {
+.content .box  p {
     margin: 0;
     padding: 4px 0;
     background-color: rgba(68, 85, 69, 0.4);
     color: white;
 }
 
-.box .sub a{
-    margin: 0 2%;
-}
 
-.sub a img {
-    width: 21%;
+.sub img{
+    margin: 0 3%;
 }
 
 .but {
@@ -108,8 +110,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #29bde0;
-    padding: 2rem 0;
+    padding: 1.2rem 0;
     border-top: 1px solid white;
     width: 100%;
     max-width: 610px;
@@ -118,7 +119,7 @@
 }
 
 button {
-    padding: 2%;
+    padding: 5%;
     width: 76%;
     background-color: orange;
     border: 0;
@@ -128,6 +129,4 @@ button {
     display: inherit;
 }
 
-.deal{
-    background-color:#303b1b;
-}
+
